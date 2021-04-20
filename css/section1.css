@@ -1,0 +1,356 @@
+/* ^ SECTION 1 */
+
+.model img{
+    width: 500px;
+    height: 500px;
+}
+
+.model{
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+
+}
+
+.text h1{
+    font-size: 2.5rem;
+    margin: 0;
+    color: #fff;  
+    font-family: poppins;
+    font-weight: 900;
+    letter-spacing: 1px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.text p{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: poppins;
+}
+
+.portfolio-btn{
+    width: 190px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    color: #915be5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: double 3px transparent;
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, #fc3d9d,#feb955);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    background-color: transparent;
+    border-radius: 20px;
+    box-shadow: 4px 5px 30px #fff;
+    margin-bottom: 15vh;
+}
+
+.portfolio-btn:hover{
+    color: #fff;
+    background-image: linear-gradient(#fc3d9d,#feb955);
+    box-shadow: unset;
+}
+
+.button_main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button_main i{
+    margin-left: 10px;
+}
+
+.button_main a:hover i{
+    transform: rotate(90deg);
+    color: #fff;
+    transition: 0.3s;
+}
+
+#box{
+    width: 50%;
+    overflow: hidden;
+    border-radius: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    margin: 0;
+    display: none;
+
+    background: #fff;
+
+} 
+
+#box header{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    background-color: #633ccb;
+
+}
+
+#box header h1{
+    margin: 0;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    
+}
+
+#box i{
+    position: relative;
+    left: -20px;
+}
+
+#box i:hover{
+    cursor: pointer;
+    color: #327e71;
+    font-size: 1.5rem;
+}
+
+#box .profil{
+    display: flex;
+    justify-content: space-between;
+    background-color: #282C34;
+}
+
+#box .profil_text{
+    border-right: 2px solid #915be5;
+    width: 50%;
+}
+
+#box .profil_text p{
+    font-family: 'Open Sans', sans-serif;
+    line-height: normal;
+    font-size: 1.2rem;
+    margin-left: 5%;
+
+}
+
+#box .line1,
+.line2, .line3,
+.line4, .line5{
+    margin: 0;
+    margin-bottom: 4px;
+    padding-left: 5%;
+}
+
+#box .colorLine{
+    color: #ABB2BF;
+    margin-right: 15px;
+    padding-left: 5%;
+
+}
+
+#box .colorLet{
+    color: #C678DD;
+}
+
+#box .colorName{
+    color: #ABB2BF;
+}
+
+#box .colorEqual{
+    color: #56B6C2;
+}
+
+#box .colorParenthese{
+    color: #ABB2BF;
+
+}
+#box .colorLineS{
+    color: #ABB2BF;
+    margin-right: 50px;
+    padding-left: 5%;
+}
+#box .colorElement{
+    color: #E06C75;
+}
+
+#box .colorPoints{
+    color: #56B6C2;
+}
+
+#box .colorElementS{
+    color: #89C379;
+}
+
+#box .textaboutme{
+    padding: 15px;
+    width: 50%;
+}
+
+#box .textaboutme p{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#box .textboxsecond a{
+    margin: auto;
+    width: 190px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 800;
+    font-family: poppins;
+    background: linear-gradient(105deg, #633ccb 0%, #915be5 100%);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#box .textboxsecond a:hover{
+    transform: translateX(3%);
+    transition: linear .3s;
+}
+
+#boxsecond{
+    width: 50%;
+    overflow: hidden;
+    border-radius: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    margin: 0;
+    display: none;
+
+    background: #fff;
+
+} 
+
+#boxsecond header{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    background-color: #633ccb;
+
+}
+
+#boxsecond header h1{
+    margin: 0;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    
+}
+
+#boxsecond i{
+    position: relative;
+    left: -20px;
+}
+
+#boxsecond i:hover{
+    cursor: pointer;
+    color: #327e71;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 640px){
+    .content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .model img{
+        height: 300px;
+        width: 300px;
+        margin: 0;
+        margin-top: 20vh;
+        padding: 0;
+    }
+    .text h1, .text p{
+        padding: 0;
+        text-align: center;
+        
+    }
+    .text h1{
+        font-size: 1.5rem;
+    }
+    .text p{
+        font-size: 1rem;
+    }
+    .portfolio-btn{
+        margin-top: 20px;
+        margin-bottom: 5vh;
+        text-align: center;
+        height: 30px;
+        width: 200px;
+        padding: 20px;
+        font-size: 12px;
+        color: #fff;
+    }
+    #box{
+        position: fixed;
+        width: 90%;
+        z-index: 1;
+    }
+    #box .profil_text{
+        height: 100%;
+    }
+    #box .profil_text p{
+        font-size: 15px;
+    }
+    #box .textaboutme{
+        padding: 5px;
+        width: 70%;
+    }
+    #box .textaboutme p{
+        font-size: 15px;
+    }
+    #box .textboxsecond a{
+        margin: auto;
+        width: 120px;
+        height: 44px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-weight: 800;
+        font-family: poppins;
+        background: linear-gradient(105deg, #633ccb 0%, #915be5 100%);
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    #boxsecond{
+        width: 60%;
+    }
+    #boxsecond h1{
+        font-size: 1rem;
+    }
+    #boxsecond i{
+        margin-left: 20px;
+    }
+    #boxsecond img{
+        width: 100px;
+        height: 100px;
+        padding: 20px;
+    }
+    .svgabsolute{
+        margin-bottom: -2px;
+    }
+}

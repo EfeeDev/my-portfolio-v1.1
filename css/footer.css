@@ -1,0 +1,115 @@
+/* ^ footer */
+
+footer{
+    margin: 0;
+    min-height: 45vh;
+    width: 100%;
+    background: #1c3548;
+}
+
+.border{
+    width: 50vw;
+    border: 3px solid #327e71;
+    border-radius: 20px;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    position: relative;
+    top: -3px;
+}
+
+.main_content_footer{
+    display: flex;
+}
+
+.main_content_footer .boxfooter{
+    flex-basis: 50%;
+    padding-left: 50px;
+}
+
+.boxfooter h2{
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.boxfooter .contentfooter{
+    margin: 20px 0 0 0;
+    position: relative;
+    color: #fff;
+
+}
+
+.boxfooter .contentfooter a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.boxfooter .contentfooter::after,
+.boxfooter .contentfootersecond::after{
+    position: absolute;
+    left: 40%;
+    content: '';
+    height: 2px;
+    margin: auto;
+    width: 20%;
+    background: #d5b7a7;
+    top: -10px;
+}
+
+
+.contentfooter .fas, 
+.contentfooter .fab,
+.contentfooter .fa{
+    font-size: 1.4375rem;
+    background: #1a1a1a;
+    color: #28a8e1;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.contentfooter .textfooter{
+    font-size: 1.0625rem;
+    flex-wrap: nowrap;
+    font-weight: 500;
+    padding-left: 10px;
+    text-align: justify;
+    font-family: 'Open Sans';
+    letter-spacing: 1px;
+}
+
+.contentfooter .phonefooter, 
+.contentfooter .pdfooter,
+.contentfooter .discordfooter{
+    margin: 10px 0;
+}
+
+.textfooter .email:hover{
+    transform: translateY(20px);
+    content: 'Clique pour copier';
+
+}
+
+@media screen and (max-width: 640px){
+    footer{
+        width: 100%;
+        min-height: 75vh;
+    }
+    .main_content_footer{
+        display: flex;
+        align-items: left;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+    }
+    .main_content_footer .boxfooter{
+        padding: 0;
+    }
+}

@@ -1,0 +1,116 @@
+#block_competences_total{
+    width: 100%;
+    min-height: 100vh;
+    background: #282C34;
+}
+
+
+.block_competences{
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2vw;
+}
+
+.competences_container{
+    display: block;
+    width: 90%;
+}
+
+.competences{
+    background-color: white;
+    box-shadow: 0 3px 10px black;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: auto;
+}
+
+.competences_title{
+    background: url(https://wallpaperxyz.com/wp-content/uploads/Website-Background-Images-HD-Free-Download-Wallpaperxyz.com-36.jpg) no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+    width: 100%;
+}
+
+.competences_title h3{
+    display: block;
+    font-size: 1.17em;
+    font-weight: bold;
+}
+
+.competences_infos{
+    padding: 20px;
+    position: relative;
+    width: 100%;
+}
+
+.logoscomp img{
+    height: 100px;
+    width: auto;
+    padding: 0.5vw;
+
+
+}
+
+.svgrelative{
+    margin-bottom: -5px;
+}
+
+.svgrelative2{
+    margin-top: -5px;
+}
+
+@media screen and (max-width: 640px){
+    .container_projects{
+        padding: 15px;
+    }
+    .projects_skills ul li img{
+        height: 40px;
+        width: 40px;
+    }
+    .container_projects img{
+        height: auto;
+        width: 95%;
+    }
+    .bodyproject{
+        height: 102vh;
+    }
+    .skill_title h2{
+        font-size: 2rem;
+    }
+    .logoscomp img{
+        height: 50px;
+        width: auto;
+        padding: 0.5vw;
+    }
+    .competences_space{
+        margin: 0;
+        margin-top: 5vh;
+    }
+    .competences_space2{
+        margin: 0;
+        margin-bottom: 5vh;
+    }
+    .skill_box{
+        overflow-x: hidden;
+    }
+    .skill_box_container{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .block_competences{
+        margin-top: 20px;
+    }
+    .svgrelative{
+        margin-bottom: -25px;
+    }
+} 
+

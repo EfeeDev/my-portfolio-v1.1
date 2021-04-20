@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/section1.css">
+    <link rel="stylesheet" href="css/section2.css">
+    <link rel="stylesheet" href="css/section3.css">
+    <link rel="stylesheet" href="css/section4.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" rel="stylesheet">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=News+Cycle&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/img/favicon-16x16.png">
+    <script src="/js/popup.js" defer></script>
+    <script src="https://unpkg.com/scrollreveal" defer></script>
+    <script src="/js/scrollreveal.js" defer></script>
+    <script src="/js/scrolldetection.js" defer></script>
+    <script src="/js/navbaradd.js" defer></script>
+    <script src="js/toastnotif.js" defer></script>
+    
+
+    <meta property="og:title" content="ROBACHE Loucas - Mon portfolio"/>
+    <meta property="og:description" content="Découvrez mon portfolio. Mes compétences, mes projets et diverses façons de me contacter y sont disponibles." />
+    <meta property="og:image" content="/img/Loucas_logo.png"/>
+
+    <title>ROBACHE Loucas - Développeur web et web mobile</title>
+
+</head>
+<body>
+    
+    <section id="main">
+        <div id="body_nav">
+        <header class="header" id="header_nav">
+            <div class="header_toggle">
+                <i class="fas fa-bars" id="header-toggle"></i>
+            </div>
+
+            <div class="lang">
+                <div class="textlang">Langue :</div> <img src="/img/france.png">
+            </div>
+            
+            <div class="contactme">
+                <a href="mailto:robacheloucass@gmail.com">Me contacter</a>
+            </div>
+        </header>
+
+        <div class="l-navbar" id="nav-bar">
+            <nav class="nav">
+                <div>
+                    <a href="" class="nav_logo nav_link">
+                        <box-icon class="bx bx-layer nav-logo_icon"></box-icon> 
+                        <span class="nav_logo-name">ROBACHE Loucas</span>
+                    </a>
+
+                    <div class="nav_list">
+                        <a href="" class="nav_link active">
+                            <i class="bx bx-grid-alt nav_icon"></i>
+                            <span class="nav_logo-name">Accueil</span>
+                        </a>
+
+                        <a href="#skills" class="nav_link">
+                            <i class='bx bx-book nav_icon'></i>
+                            <span class="nav_logo-name">Mes compétences</span>
+                        </a>
+                
+                        <a href="#project" class="nav_link">
+                            <i class='bx bx-code-block nav_icon'></i>
+                            <span class="nav_logo-name">Mes projets</span>
+                        </a>
+                
+                        <a href="#footer" class="nav_link">
+                            <i class='bx bx-mail-send nav_icon'></i>
+                            <span class="nav_logo-name">Me contacter</span>
+                        </a>
+                    </div>
+                </div>
+
+                <a href="#" class="nav_link" onclick="popuplang()">
+                    <i class='fas fa-language nav_icon'></i>
+                    <span class="nav_logo-name">Changer la langue</span>
+                </a>
+
+                <a href="/CV_loucasrobache.pdf" download="CV_ROBACHELoucas.pdf" class="nav_link">
+                    <i class="fa fa-sign-out-alt nav_icon"></i>
+                    <span class="nav_logo-name">Télécharger mon CV</span>
+                </a>
+            </nav>
+        </div>
+
+        <div id="boxsecond">
+            <header>
+                <h1>Choix de la langue : </h1>
+                <i class="fa fa-times" onclick="popuplang()"></i>
+            </header>
+            <div class="switch_language">
+                <ul>
+                    <a href="/index.html" class="border-right-boxsecond">
+                        <li class="french">
+                            <img src="/img/france.png" alt="france">
+                        </li>
+                    </a>
+                    <a href="/index_en.html">
+                        <li>
+                            <img src="/img/english.png" alt="english">
+                        </li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+
+
+
+    </div>
+
+        <div class="content">
+            <div class="model">
+                <img class='imgmodel'src="/img/moi.png" alt="oui">
+            </div>
+            <div class="text">
+                <h1>Je suis Loucas, bienvenue sur mon portfolio</h1>
+                <p>Bienvenue sur mon portfolio dans lequel vous pourrez trouver mes différentes compétences ainsi que mes projets réalisés</p>
+            </div>
+        </div>
+        <div class="button_main">
+            <a href="#" class="portfolio-btn" onclick="popup()">A propos de moi<i class="fa fa-angle-right pana" aria-hidden="true"></i></a>
+            <a href="CV_loucasrobache.pdf" target='_blank' class="portfolio-btn">Consulter mon CV <i class="fa fa-angle-right pana" aria-hidden="true"></i></a>
+            </div>
+        <div id="box">
+            <header>
+                <h1>A propos</h1>
+                <i class="fa fa-times" onclick="popup()"></i>
+            </header>
+
+            <div class="profil">
+                <div class="profil_text">
+                    <p class="ligne1">
+                        <span class="colorLine">1</span>
+                        <span class="colorLet">let</span>
+                        <span class="colorName">Loucas_Robache</span>
+                        <span class="colorEqual">=</span>
+                        <span class="colorParenthese">{</span>
+                    </p>
+                <div class="profil_text_second">
+                    <p class="ligne2">
+                        <span class="colorLineS">2</span>
+                        <span class="colorElement">situation</span>
+                        <span class="colorPoints">:</span>
+                        <span class="colorElementS">'lycéen'</span>
+                        <span class="colorParenthese">,</span>
+                    </p>
+                    <p class="ligne3">
+                        <span class="colorLineS">3</span>
+                        <span class="colorElement">projet</span>
+                        <span class="colorPoints">:</span>
+                        <span class="colorElementS">'développeur web et web mobile'</span>
+                        <span class="colorParenthese">,</span>
+                    </p>
+                    <p class="ligne4">
+                        <span class="colorLineS">4</span>
+                        <span class="colorElement">âge</span>
+                        <span class="colorPoints">:</span>
+                        <span class="colorElementS">'18'</span>
+                        <span class="colorParenthese">,</span>
+                    </p>
+                    <p class="ligne5">
+                        <span class="colorLine">5</span>
+                        <span class="colorParenthese">}</span>
+                        <span class="colorParenthese">;</span>
+                    </p>
+                    </div>
+                </div>
+                <div class="textaboutme">
+                    <p class="ABOUTME">
+                        Né à Rouen, ville où je réside actuellement, je suis un jeune lycéen de 18 ans souhaitant continuer ses études en apprentissage développeur web & web mobile. Je suis amateur dans le domaine et j'apprends tous les jours de nouvelles choses.
+                    </p>
+                    <div class="textboxsecond">
+                        <a href="mailto:robacheloucass@gmail.com"><p>Contactez-moi</p></a>
+                    </div> 
+                </div>
+
+            </div>
+        </div>
+        <svg class='svgabsolute' viewBox="0 0 1440 100"><path fill="#fff" fill-opacity="1" d="M 0 0 L1500 100 L0 100 Z"></path></svg>
+    </section>
+     
+    <section id="skills">
+        <div class="skills_container">
+            <h2>Mes compétences</h2>
+            <div class="skills-bar">
+                <div class="bar">
+                    <div class="info">
+                        <span class="title-info">HTML</span>
+                        <span><i class="fab fa-html5 html-skills"></i></span>
+                    </div>
+                    <div class="progress-line">
+                        <span class="bar-progress"></span>
+                    </div>
+                    <div class="skill_box_text">
+                        <h1>Hyper Text Markup Language - (HTML)</h1>
+                        <p>Mes premières expériences en <span>HTML</span> remontent en octobre 2019. J'ai commencé par apprendre les bases sur <a href="https://openclassrooms.com/fr/">OCR</a> pour plus tard, compléter mon expérience de façon autodidacte.</p>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <span class="title-info">CSS</span>
+                        <span><i class="fab fa-css3-alt css-skills"></i></span>
+                    </div>
+                    <div class="progress-line">
+                        <span class="bar-progress-css"></span>
+                    </div>
+                    <div class="skill_box_text">
+                        <h1>Cascading Style Sheets - (CSS)</h1>
+                        <p>Mes premières expériences en <span>CSS</span> remontent également en octobre 2019. J'ai commencé par apprendre les bases sur <a href="https://openclassrooms.com/fr/">OCR</a> pour plus tard, compléter mon expérience en autodidacte.</p>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <span class="title-info">JS</span>
+                        <span><i class="fab fa-js js-skills"></i></span>
+                    </div>
+                    <div class="progress-line">
+                        <span class="bar-progress-js"></span>
+                    </div>
+                    <div class="skill_box_text">
+                        <h1>JavaScript - (JS)</h1>
+                        <p>Mes premières expériences en <span>JavaScript</span> remontent en novembre 2020. J'ai attaqué les bases de façon autodidacte en m'aidant des ressources de <a href="https://www.w3schools.com/">W3S</a> ainsi que de <a href="https://developer.mozilla.org/fr/">Developer Mozilla</a>.</p>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <span class="title-info">PHP</span>
+                        <span><i class="fab fa-php php-skills"></i></span>
+                    </div>
+                    <div class="progress-line">
+                        <span class="bar-progress-php"></span>
+                    </div>
+                    <div class="skill_box_text">
+                        <h1>PHP Hypertext Preprocessor - (PHP)</h1>
+                        <p>Mes connaissances en <span>PHP</span> sont relativements faibles, je travail activement sur le sujet afin d'acquérir les compétences nécessaires.</p>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <span class="title-info">SQL</span>
+                        <span><i class="fas fa-database sql-skills"></i></span>
+                    </div>
+                    <div class="progress-line">
+                        <span class="bar-progress-sql"></span>
+                    </div>
+                    <div class="skill_box_text">
+                        <h1>Structured Query Language - (SQL)</h1>
+                        <p>Je ne dispose que de trop peu de connaissances sur le sujet, je définis donc mes compétences comme absentes. Je travail également activement sur le sujet afin d'acquérir les compétences nécessaires</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <svg class='svgrelative' viewBox="0 0 100 5" xmlns="http://www.w3.org/2000/svg">
+        <g color="#282C34">
+          <polygon points="0 0, 0 100, 100 5" fill="currentColor"></polygon>
+        </g>
+      </svg>
+    
+    <section id="block_competences_total">
+        
+        <div class="block_competences">
+            <div class="competences_container competences_space">
+                <div class="competences">
+                    <div class="competences_title">
+                        <h2>Analyser les besoins du client / Communiquer avec une équipe</h2>
+                    </div>
+                    <div class="competences_infos">
+                        <div class="logoscomp">
+                            <img src="/img/trello.jfif" alt="trello">
+                            <img src="/img/slack.png" alt="slack">
+                            <img src="/img/discord.png" alt="discord">
+                            <img src="/img/whatsapp.png" alt="whatsapp">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block_competences">
+            <div class="competences_container competences_space2">
+                <div class="competences">
+                    <div class="competences_title">
+                        <h2>Réalisation de maquette / Réalisation interface utilisateur</h2>
+                    </div>
+                    <div class="competences_infos">
+                        <div class="logoscomp">
+                            <img src="https://spin.atomicobject.com/wp-content/uploads/figma-logo.png" alt="figma">
+                            <img src="https://en.opensuse.org/images/e/e8/Vscode.png" alt="vsclogo">
+                            <img src="https://cdn.dribbble.com/users/2404/screenshots/3438305/sublime-text-preview_1x.png" alt="sublimetext">
+                            <img src="https://logos-download.com/wp-content/uploads/2019/07/Notepad_Logo.png" alt="notepad">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    <section id="project">
+        <svg class='svgrelative2' viewBox="0 0 100 5" xmlns="http://www.w3.org/2000/svg">
+            <g color="#272C34">
+              <polygon points="0 0, 100 0, 0 5" fill="currentColor"></polygon>
+            </g>
+          </svg>
+        <div class="project_title">
+            <h1>Mes projets</h2>
+        </div>
+        <div class="projects">
+            <div class="container_projects">
+                <h1>SARL Robache</h1>
+                    <img src="/img/site.png" alt="site">
+                    <div class="project_text">
+                        <h2>Description du site</h2>
+                        <p>Le site a été réalisé durant mon année de terminale. Il présente une entreprise d'électricité ainsi que ses divers secteurs d'activités, son emplacement géographique, son effectif et ses moyens de contact.</p>
+                    </div>
+                    <div class="project_text_2">
+                        <h2>Cadre :</h2>
+                        <p>Le site a été réalisé dans le câdre de mon baccalauréat professionnel. Celui-ci a été présenté à l'oral d'Art Appliquée durant mon année de terminale. Il ma aussi permit d'acquiérir les bases de JavaScript ainsi que perfectionner mes compétences en HTML & CSS.</p>
+                    </div>
+                    <div class="projects_skills">
+                        <h3>Languages utilisés :</h3>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>jQuery</li>
+                        </ul>
+                        <h3>Outils utilisés</h3>
+                        <ul>
+                            <li><a href="https://discord.com/"><img src="/img/discord.png" alt="discord"></a></li>
+                            <li><a href="https://code.visualstudio.com/"><img src="https://en.opensuse.org/images/e/e8/Vscode.png" alt="vsclogo"></a></li>
+                            <li><a href="https://developer.mozilla.org/fr/"><img src="https://th.bing.com/th/id/OIP.jmfeuj6r2cLAuCEGnwXz1gHaE8?pid=ImgDet&rs=1" alt="mdn"></a></li>
+                            <li><a href="https://www.w3schools.com/"><img src="/img/w3s.png" alt="w3s"></a></li>
+                        </ul>
+                    </div>
+                </div>
+        
+            <div class="container_projects">
+                <h1>LaBague AuDoigt</h1>
+                    <img src="/img/site2.png" alt="site">
+                    <div class="project_text">
+                        <h2>Description du site</h2>
+                        <p>Le site a été réalisé durant mon année de terminale. Il avait pour but de présenter une entreprise organisatrice de mariage située en Gironde. Celui-ci permettait de découvrir les différentes prestations de l'entreprise, ses moyens de contact et son emplacement géographique. Le site était 100% responsive et était vitrine.</p>
+                    </div>
+                    <div class="project_text_2">
+                        <h2>Cadre :</h2>
+                        <p>Le site a été réalisé dans dans le cadre de créer un site pour une personne proche ainsi que de travailler mes compétences en HTML et CSS.</p>
+                    </div>
+                    <div class="projects_skills">
+                        <h3>Languages utilisés :</h3>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                        </ul>
+                        <h3>Outils utilisés</h3>
+                        <ul>
+                            <li><a href="https://discord.com/"><img src="/img/discord.png" alt="discord"></a></li>
+                            <li><a href="https://code.visualstudio.com/"><img src="https://en.opensuse.org/images/e/e8/Vscode.png" alt="vsclogo"></a></li>
+                            <li><a href="https://developer.mozilla.org/fr/"><img src="https://th.bing.com/th/id/OIP.jmfeuj6r2cLAuCEGnwXz1gHaE8?pid=ImgDet&rs=1" alt="mdn"></a></li>
+                            <li><a href="https://www.w3schools.com/"><img src="/img/w3s.png" alt="w3s"></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="container_projects">
+                    <h1>Mon portfolio</h1>
+                        <img src="/img/siteportfolio.JPG" alt="site">
+                        <div class="project_text">
+                            <h2>Description du site</h2>
+                            <p>Le site, celui-ci sur lequel vous êtes actuellement, a été réalisé durant mon année de terminale. Il a pour but d'être présenté durant mon entretien avec mon école afin de mettre en avant mon savoir-faire et mes compétences. Celui-ci permettait de me contacter, de visualiser mes compétences ainsi que mes divers projets et des moyens de contact.</p>
+                        </div>
+                        <div class="project_text_2">
+                            <h2>Cadre :</h2>
+                            <p>Le site a été réalisé afin de mettre mes compétences en avant ainsi que de permettre aux personnes intéréssées de me contacter. Il aura aussi permit d'améliorer mes compétences front-end.</p>
+
+                        </div>
+                        <div class="projects_skills">
+                            <h3>Languages utilisés :</h3>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>jQuery</li>
+                            </ul>
+                            <h3>Autre skills :</h3>
+                            <ul>
+                                <li>Librairies</li>
+                            </ul>
+                            <h3>Outils utilisés</h3>
+                            <ul>
+                                <li><a href="https://discord.com/"><img src="/img/discord.png" alt="discord"></a></li>
+                                <li><a href="https://code.visualstudio.com/"><img src="https://en.opensuse.org/images/e/e8/Vscode.png" alt="vsclogo"></a></li>
+                                <li><a href="https://developer.mozilla.org/fr/"><img src="https://th.bing.com/th/id/OIP.jmfeuj6r2cLAuCEGnwXz1gHaE8?pid=ImgDet&rs=1" alt="mdn"></a></li>
+                                <li><a href="https://www.w3schools.com/"><img src="/img/w3s.png" alt="w3s"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                <div class="container_projects">
+                    <div class="bodyproject">
+                <h1>Votre projet</h1>
+                    <img src="/img/you.png" alt="site">
+                    <div class="project_text">
+                        <h2>Description du site</h2>
+                        <p>Je certifie réaliser votre site <span>vitrine</span> rapidement, de façon <span>responsive</span> et un service client de qualité.</p>
+                    </div>
+                    <div class="project_text_2">
+                        <h2>Cadre :</h2>
+                        <p>Peut-importe le cadre, j'interviendrais selon vos demandes. Il est également possible de concevoir une maquette selon vos demandes.</p>
+                    </div>
+                    </div>
+                    <div class="footersite">
+                    <div class="projects_skills">
+                        <h3>Languages connus :</h3>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript (bases)</li>
+                            <li>jQuery (bases)</li>
+                        </ul>
+                        <h3>Autre skills</h3>
+                        <ul>
+                            <li>Librairies</li>
+                        </ul>
+                        <h3>Outils que j'utilise :</h3>
+                        <ul>
+                            <li><a href="https://discord.com/"><img src="/img/discord.png" alt="discord"></a></li>
+                            <li><a href="https://code.visualstudio.com/"><img src="https://en.opensuse.org/images/e/e8/Vscode.png" alt="vsclogo"></a></li>
+                            <li><a href="https://developer.mozilla.org/fr/"><img src="https://th.bing.com/th/id/OIP.jmfeuj6r2cLAuCEGnwXz1gHaE8?pid=ImgDet&rs=1" alt="mdn"></a></li>
+                            <li><a href="https://www.w3schools.com/"><img src="/img/w3s.png" alt="w3s"></a></li>
+                        </ul>
+                    </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <footer id="footer">
+        <div class="border"></div>
+            <div class="main_content_footer">
+                <div class="left_footer boxfooter">
+                    <h2>Mes informations</h2>
+                    <div class="contentfooter">
+                        <div class="mapfooter">
+                            <span class="fas fa-map-marker-alt"></span>
+                            <span class="textfooter">Rouen, 76000</span>
+                        </div>
+                        <div class="phonefooter">
+                            <span class="fas fa-phone-alt"></span>
+                            <span class="textfooter">Le numéro de téléphone sera transmit si nécessaire lors de l'entretien par mail</span>
+                        </div>
+                        <div class="emailfooter">
+                            <span class="fas fa-envelope"></span>
+                            <span class="textfooter email" onclick="clipboard()">robacheloucass@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="middle_footer boxfooter">
+                    <h2>Mon CV</h2>
+                    <div class="contentfooter">
+                        <div class="wordfooter">
+                            <a href="/CV_loucasrobache.docx" download="CV_loucasrobache.docx">
+                            <span class="fas fa-file-word"></span>
+                            <span class="textfooter">Télécharger mon CV en format .doc!</span>
+                            </a>
+                        </div>
+                        <div class="pdfooter">
+                            <a href="/CV_loucasrobache.pdf" download="CV_loucasrobache.pdf">
+                            <span class="fas fa-file-pdf"></span>
+                            <span class="textfooter">Télécharger mon CV en format .pdf!</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="right_footer boxfooter">
+                    <h2>Mes réseaux</h2>
+                    <div class="contentfooter">
+                        <div class="facebookfooter">
+                            <span class="fab fa-facebook-f"></span>
+                            <span class="textfooter">Cliquez pour rejoindre mon Facebook</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </footer>
+</body>
+
+        

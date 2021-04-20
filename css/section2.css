@@ -1,0 +1,172 @@
+#skills{
+    min-height: 100vh;
+
+}
+
+.skills_container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10vh;
+}
+
+.skills_container h2{
+    width: 100%;
+    text-align: center;
+    color: #1c3548;
+}
+
+.skills-bar{
+    width: 60%;
+    background: #fff;
+    border: 5px solid #aca9a9;
+    border-radius: 20px;
+    box-shadow: 30px 30px 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+
+.skills-bar .bar{
+    margin-bottom: 20px;
+
+}
+
+.skills-bar .bar:first-child{
+    margin-top: 0px;
+}
+
+.skills-bar .bar:last-child{
+    margin: 0;
+}
+.skills-bar .bar .info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.skills-bar .bar .info span{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.skills-bar .bar .info span i{
+    font-size: 1.5rem;
+}
+
+.skills-bar .bar .progress-line{
+    position: relative;
+    border-radius: 20px;
+    height: 12px;
+    width: 100%;
+    background: #f0f0f0;
+    box-shadow: inset 0px 1px 1px rgba(0, 0, 0,0.05);
+
+}
+
+.bar .progress-line .bar-progress{
+    height: 100%;
+    width: 90%;
+    position: absolute;
+    background: #e34f26;
+
+}
+
+.bar .progress-line .bar-progress-css{
+    height: 100%;
+    width: 90%;
+    position: absolute;
+    background: #416cdf;
+
+}
+
+.bar .progress-line .bar-progress-js{
+    height: 100%;
+    width: 20%;
+    position: absolute;
+    background: #f7e018;
+
+}
+
+.bar .progress-line .bar-progress-php{
+    height: 100%;
+    width: 5%;
+    position: absolute;
+    background: #505e9b;
+
+    
+}
+
+.bar .progress-line .bar-progress-sql{
+    height: 100%;
+    width: 0%;
+    position: absolute;
+    background: #3399da;
+
+    
+}
+
+.skill_box_text{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.skill_box_text h1{
+    color: #1c3548;
+    margin: 5px;
+    font-size: 0.9rem;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.skill_box_text p{
+    color: #747474;
+    margin: 0px;
+
+}
+
+.skill_box_text p a{
+    color: #327e71;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-decoration: underline;
+
+}
+
+.skill_box_text p span{
+    font-weight: 600;
+}
+
+.html-skills{
+    color: rgb(223,77,34);
+
+}
+
+.css-skills{
+    color: rgb(43,76,235);
+}
+
+.js-skills{
+    color: rgb(242,217,26);
+}
+
+.php-skills{
+    color: rgb(119,120,185);
+}
+
+.sql-skills{
+    color: rgb(1,99,139);
+}
+
+@media screen and (max-width:640px){
+    .skills-bar .bar .info{
+        margin: 0;
+    }
+    .skill_title h2{
+        font-size: 2rem;
+    }
+}
